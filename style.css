@@ -1,0 +1,78 @@
+* {
+    padding:0px;
+    margin:0px;
+    box-sizing: border-box;
+    font-family: poppins;
+}
+.container{
+    width:100%;
+    min-height: 100vh;
+    background: rgb(238,174,202);
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+    color:black black;
+    padding-left: 10%;
+    padding-top: 8%;
+
+}
+.container h1{
+    display: flex;
+    font-size:35px;
+    align-items: center;
+    font-weight: 600;
+    
+}
+.container h1 img{
+    height : 50px;
+    width: 50px;
+}
+.container button img{
+     
+    width:25px;
+    margin-right:8px;
+    
+} 
+.container button{
+    background: rgb(63,94,251);
+    background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%);
+    height:60px ;
+    width:200px;
+    border-radius: 30px;
+    font-size: medium;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border:none;
+    margin-top: 20px;
+    cursor:pointer;
+    transition: 0.5s ease;
+    &:hover {
+        background: rgb(63,94,251);
+        background: -moz-radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(0,0,0,1) 100%);
+        background: -webkit-radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(0,0,0,1) 100%);
+        background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(0,0,0,1) 100%);
+        filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#3f5efb",endColorstr="#000000",GradientType=1);
+        color:white;
+    }
+}
+.input-Box{
+    position: relative;
+    max-width:500px; 
+    min-height:150px;
+    color:#333;
+    background: #fff;
+    padding:20px ;
+    margin:20px 0;
+    border-radius: 5px;
+    outline:none;
+
+}
+.input-Box img{
+    height: 21px;
+    width: 27px;
+    background-color: #fff;
+    position: absolute;
+    top: 118px;
+    left: 466px;
+    cursor:pointer;
+}
